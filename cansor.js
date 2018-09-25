@@ -26,7 +26,6 @@ window.onload = function ()
 	};
 
 	let head = document.querySelector('head');
-	let body = document.querySelector('body');
 	let elements = document.querySelectorAll('body *');
 	
 	let style = document.createElement('style');
