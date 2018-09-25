@@ -39,7 +39,7 @@ window.onload = function ()
 		cansorOptions.list.forEach((cansorItem) => {
 
             let match = new RegExp(cansorItem, 'ig');
-            element.innerHTML = element.innerHTML.replace(match, '<cansored class=\"cansor\">$&</cansored>');
+            element.innerHTML = element.innerHTML.replace(match, '<cansored class="cansor">$&</cansored>');
 		});
 	});
 };
