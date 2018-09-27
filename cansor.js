@@ -34,7 +34,7 @@ window.onload = function ()
 	head.appendChild(style);
 
 
-	elements.forEach((element, elementIndex) => {
+	elements.forEach((element) => {
         
 		cansorOptions.list.forEach((cansorItem) => {
 
